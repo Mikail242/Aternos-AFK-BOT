@@ -1,7 +1,7 @@
 {
   "name": "AFK Bot",
   "bot-account": {
-    "username": "Technoblade",
+    "username": "AFK-Bot",
     "password": "",
     "type": "offline"
   },
@@ -26,8 +26,8 @@
       "sneak": true
     },
     "chat-messages": {
-      "enabled": true,
-      "repeat": true,
+      "disable": true,
+      "repeat": false,
       "repeat-delay": 500,
       "messages": [
         "I'm a bot",
@@ -74,7 +74,7 @@
   },
   "beds": {
     "pick-up-day": true,
-    "place-night": true
+    "place-night": false
   },
   "discord": {
     "enabled": true,
